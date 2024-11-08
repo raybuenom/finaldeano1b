@@ -4,5 +4,21 @@
 }
 
 header{
-    background-color: orchid;
+    background-color: rgb(250, 0, 242);
+}
+:root{
+    --text-color:#ffffff;
+    --text-front-color: #d45ddf;
+    --card-back-color: #e743ec;
+}
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.catao_conteudo{
+    background-color: var(--text-color);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: trasform 300ms ease-in-out;
 }
